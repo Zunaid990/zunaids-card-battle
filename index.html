@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="A sleek two-player card game showcasing front-end development skills">
+    <meta name="keywords" content="card game, JavaScript, web development, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Battle</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-title">Zunaids Card Battle ⚔️</h1>
+        <div class="instructions-box">
+            <p class="instructions">
+                Welcome to Zunaids Card Battle! Click "New Deck" to get a fresh deck of cards, then click "Deal Cards" to deal two cards—one for each player. The player with the higher card value wins the round. Card values rank as follows: Ace (14), King (13), Queen (12), Jack (11), and 2-10 as their face value. Suits don’t affect the outcome. Click "Reset Game" to start over. Let the battle begin!
+            </p>
+        </div>
+        <div class="controls">
+            <button id="deck">New Deck</button>
+            <button id="dealButton" disabled>Deal Cards</button>
+            <button id="resetButton">Reset Game</button>
+        </div>
+        <div class="game-area">
+            <div class="player">
+                <h2>Player 1</h2>
+                <div class="card-container">
+                    <img id="card1" src="https://www.deckofcardsapi.com/static/img/back.png" alt="Card back">
+                    <p id="card1-value" class="card-value"></p>
+                </div>
+            </div>
+            <div class="player">
+                <h2>Player 2</h2>
+                <div class="card-container">
+                    <img id="card2" src="https://www.deckofcardsapi.com/static/img/back.png" alt="Card back">
+                    <p id="card2-value" class="card-value"></p>
+                </div>
+            </div>
+        </div>
+        <h3 id="result">Click "New Deck" to begin!</h3>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
