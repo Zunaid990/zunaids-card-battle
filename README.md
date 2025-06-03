@@ -1,26 +1,37 @@
-# Card Battle
+# Card Battle 🃏  
+A fun two-player card game where players draw cards from an API and battle for the highest card. Built with vanilla JavaScript, styled with CSS, and powered by the Deck of Cards API.
 
-A simple two-player card game built with HTML, CSS, and JavaScript. Players draw cards from a deck using the Deck of Cards API, and the player with the higher card value wins the round.
+**Link to project:** https://zunaid990.github.io/zunaids-card-battle/ 
 
-## Play the Game
-Play the live game here: [Card Battle](https://your-username.github.io/card-battle/)
+![Card Battle Screenshot](./img/screenshot.JPG)
 
-## How to Play
-1. Click "New Deck" to get a fresh deck of cards.
-2. Click "Deal Cards" to deal two cards—one for each player.
-3. The player with the higher card value wins the round.
-   - Card values: Ace (14), King (13), Queen (12), Jack (11), 2-10 (face value).
-   - Suits don’t affect the outcome.
-4. Click "Reset Game" to start over.
+---
 
-## Features
-- Responsive design for mobile and desktop.
-- Smooth card flip animations.
-- Clear display of card values and suits.
-- Styled game title and instructions.
+## How It's Made:
 
-## Technologies Used
-- HTML5
-- CSS3 (Flexbox, media queries, animations)
-- JavaScript (async/await, DOM manipulation)
-- Deck of Cards API (https://www.deckofcardsapi.com/)
+**Tech used:** HTML, CSS, JavaScript, Deck of Cards API
+
+This project uses HTML to structure the game UI, CSS for layout and responsive design (with a sprinkle of animations), and JavaScript to handle all logic and API interactions. When users click the "Deal Cards" button, it fetches two cards from the Deck of Cards API and compares their values. The card with the higher rank wins the round.
+ Card values: Ace (14), King (13), Queen (12), Jack (11), 2–10 (face value).
+The app includes:
+- A "New Deck" button to reset the game with a fresh shuffled deck.
+- A "Deal Cards" button to draw two new cards.
+- A live display of card images and round results.
+- A "Reset Game" button to start fresh.
+
+---
+
+## Optimizations  
+*(optional)*  
+- Used `async/await` for cleaner API calls.
+- Separated logic into modular functions.
+- Made the layout mobile-responsive using Flexbox and media queries.
+- Minimized DOM queries for performance.
+
+---
+
+## Lessons Learned:
+
+This project helped me understand how to work with third-party APIs and real-time data handling using `fetch()`. I also gained experience managing game state, improving UI responsiveness, and debugging async behavior in the browser.
+
+It was rewarding to see the project evolve into a fully playable mini-game!
