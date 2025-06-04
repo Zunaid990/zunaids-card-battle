@@ -1,7 +1,9 @@
 # Card Battle 🃏  
 A fun two-player card game where players draw cards from an API and battle for the highest card. Built with vanilla JavaScript, styled with CSS, and powered by the Deck of Cards API.
 
-**Link to project:** https://zunaid990.github.io/zunaids-card-battle/ 
+<a href="https://zunaid990.github.io/zunaids-card-battle/" target="_blank">My Card Battle Website</a>
+
+
 
 ![Card Battle Screenshot](./img/screenshot.JPG)
 
