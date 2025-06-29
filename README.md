@@ -37,3 +37,12 @@ The app includes:
 This project helped me understand how to work with third-party APIs and real-time data handling using `fetch()`. I also gained experience managing game state, improving UI responsiveness, and debugging async behavior in the browser.
 
 It was rewarding to see the project evolve into a fully playable mini-game!
+
+## 🔗 Other Projects: 
+
+
+- [🧮 Calculator App](https://zunaid990.github.io/calculator-app/) – A basic calculator built with HTML, CSS, and JavaScript.
+- [⏱️ Stopwatch App](https://zunaid990.github.io/Stopwatch-app/) – A simple stopwatch with start, pause, and reset functions.
+
+
+
