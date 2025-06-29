@@ -41,8 +41,8 @@ It was rewarding to see the project evolve into a fully playable mini-game!
 ## 🔗 Other Projects: 
 
 
-- [🧮 Calculator App](https://zunaid990.github.io/calculator-app/) – A basic calculator built with HTML, CSS, and JavaScript.
-- [⏱️ Stopwatch App](https://zunaid990.github.io/Stopwatch-app/) – A simple stopwatch with start, pause, and reset functions.
+- [🧮 Calculator App](https://github.com/Zunaid990/calculator-app.git) – A basic calculator built with HTML, CSS, and JavaScript.
+- [⏱️ Stopwatch App](https://github.com/Zunaid990/Stopwatch-app.git) – A simple stopwatch with start, pause, and reset functions.
 
 
 
